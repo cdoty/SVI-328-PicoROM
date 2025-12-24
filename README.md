@@ -85,7 +85,6 @@ The firmware source comprises:
 
  - `main.c`: Responsible for system initialization, WiFi configuration, and reception and handling of ROM data.
  - `svi-328-cartridge.c/h`: Implements the logic necessary for cartridge ROM emulation.
- - `log.c/h`: Provides logging utilities essential for debugging and real-time data monitoring.
 
 ### Hardware design and PCB layout
 
