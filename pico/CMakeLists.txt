@@ -29,8 +29,6 @@ pico_sdk_init()
 add_executable(svi-328-picorom
     c/main.c
     c/svi-328-cartridge.c
-    c/log.c
-    c/wifi.c
     )
 
 target_include_directories(svi-328-picorom PRIVATE
@@ -42,8 +40,6 @@ target_link_libraries(svi-328-picorom
     pico_stdlib
     pico_multicore
     pico_cyw43_arch_lwip_threadsafe_background
-    pico_lwip
-    pico_lwip_http
 )
 
 set_target_properties(svi-328-picorom PROPERTIES PICO_TARGET_LINKER_SCRIPT 
