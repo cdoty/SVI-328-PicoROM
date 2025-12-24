@@ -18,7 +18,7 @@ This repository contains:
  - PCB design files ([pcb](pcb/) directory), including schematics and layouts, developed using KiCad, suitable for fabrication with, for example, [PCBWay](https://www.pcbway.com/).
 
 ## Using a custom SVI ROM
-Replace Test.rom in the [rom](rom/) directory, run mk.bat and recompile the firmware. You may have to touch or resave [svi-328-cartridge.c](c/svi-328-cartridge.c). 
+Replace Test.rom in the [rom](rom/) directory, run mk.bat and recompile the firmware. You may have to touch or resave [svi-328-cartridge.c](pico/c/svi-328-cartridge.c). 
 
 **NOTE**: Only 32 kB ROM images are supported at the moment.
 
